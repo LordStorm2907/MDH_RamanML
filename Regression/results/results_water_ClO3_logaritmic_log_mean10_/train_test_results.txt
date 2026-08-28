@@ -1,0 +1,37 @@
+===== TPOT 0.12.2 TRAIN/TEST RESULTS =====
+Model = Pipeline(steps=[('stackingestimator-1',
+                 StackingEstimator(estimator=GaussianProcessRegressor(alpha=0.0001))),
+                ('stackingestimator-2',
+                 StackingEstimator(estimator=ExtraTreesRegressor(min_samples_leaf=2,
+                                                                 min_samples_split=5))),
+                ('kneighborsregressor',
+                 KNeighborsRegressor(n_neighbors=2, p=1, weights='distance'))])
+Train R2   = 1.0000e+00
+Train RMSE = 0.0000e+00
+Train MAE  = 0.0000e+00
+Test R2    = 9.4821e-01
+Test RMSE  = 4.5515e-01
+Test MAE   = 1.5999e-01
+
+===== SETTINGS =====
+data_folder = /home/amslabs/python/Data/water_ClO3_logaritmic
+target_mode = log10
+use_wn_min = False
+wn_min = None
+use_wn_max = False
+wn_max = None
+normalize_X_SNV = True
+normalize_y = False
+y_scale = 1.0
+use_savgol = False
+use_loess = True
+use_cae = True
+pca = chosen internally by TPOT 0.12.2 if useful
+n_input_features_before_tpot = 1024
+test_size = 0.2
+tpot_cv = 5
+tpot_scorer = r2
+tpot_max_time_mins = 60
+tpot_max_eval_time_mins = 10
+tpot_n_jobs = 1
+random_state = 0
