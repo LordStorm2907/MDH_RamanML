@@ -1,0 +1,35 @@
+===== TPOT 0.12.2 TRAIN/TEST RESULTS =====
+Model = Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=KNeighborsRegressor(n_neighbors=3,
+                                                                 p=1))),
+                ('extratreesregressor',
+                 ExtraTreesRegressor(max_features=0.3, min_samples_leaf=2))])
+Train R2   = 9.9988e-01
+Train RMSE = 1.8976e-05
+Train MAE  = 4.7813e-06
+Test R2    = 9.9923e-01
+Test RMSE  = 4.7936e-05
+Test MAE   = 1.8482e-05
+
+===== SETTINGS =====
+data_folder = /home/amslabs/python/Data/water_Acetone_linear
+target_mode = linear
+use_wn_min = False
+wn_min = None
+use_wn_max = False
+wn_max = None
+normalize_X_SNV = True
+normalize_y = False
+y_scale = 1.0
+use_savgol = False
+use_loess = True
+use_cae = True
+pca = chosen internally by TPOT 0.12.2 if useful
+n_input_features_before_tpot = 1024
+test_size = 0.2
+tpot_cv = 5
+tpot_scorer = r2
+tpot_max_time_mins = 60
+tpot_max_eval_time_mins = 10
+tpot_n_jobs = 1
+random_state = 0
