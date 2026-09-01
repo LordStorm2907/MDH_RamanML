@@ -1,0 +1,33 @@
+===== TPOT 0.12.2 TRAIN/TEST RESULTS =====
+Model = Pipeline(steps=[('pca', PCA(n_components=0.985, svd_solver='full')),
+                ('extratreesregressor',
+                 ExtraTreesRegressor(min_samples_split=10))])
+Train R2   = 9.6402e-01
+Train RMSE = 3.7937e-01
+Train MAE  = 1.1343e-01
+Test R2    = 9.5718e-01
+Test RMSE  = 4.1388e-01
+Test MAE   = 1.2535e-01
+
+===== SETTINGS =====
+data_folder = /home/amslabs/python/Data/water_PFAS_logaritmic
+target_mode = log10
+use_wn_min = False
+wn_min = None
+use_wn_max = False
+wn_max = None
+normalize_X_SNV = True
+normalize_y = False
+y_scale = 1.0
+use_savgol = False
+use_loess = True
+use_cae = True
+pca = chosen internally by TPOT 0.12.2 if useful
+n_input_features_before_tpot = 1024
+test_size = 0.2
+tpot_cv = 5
+tpot_scorer = r2
+tpot_max_time_mins = 60
+tpot_max_eval_time_mins = 10
+tpot_n_jobs = 1
+random_state = 0
