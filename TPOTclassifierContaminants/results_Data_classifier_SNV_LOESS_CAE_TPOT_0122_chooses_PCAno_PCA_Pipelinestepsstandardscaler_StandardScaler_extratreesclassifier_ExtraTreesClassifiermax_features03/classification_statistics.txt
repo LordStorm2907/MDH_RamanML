@@ -1,0 +1,44 @@
+===== TRAIN STATISTICS =====
+Accuracy = 0.982397
+Balanced accuracy = 0.970928
+
+              precision    recall  f1-score   support
+
+     acetone       1.00      1.00      1.00       960
+       amica       1.00      1.00      1.00      1920
+        clo3       0.94      1.00      0.97      5120
+     dioxane       1.00      1.00      1.00       960
+         dmf       1.00      0.68      0.81       960
+         ipa       1.00      1.00      1.00       960
+         kcl       1.00      1.00      1.00      1920
+        meoh       1.00      1.00      1.00       960
+        nacl       1.00      1.00      1.00      1920
+         no3       1.00      1.00      1.00       800
+        pfas       1.00      1.00      1.00       960
+
+    accuracy                           0.98     17440
+   macro avg       0.99      0.97      0.98     17440
+weighted avg       0.98      0.98      0.98     17440
+
+
+===== TEST STATISTICS =====
+Accuracy = 0.961927
+Balanced accuracy = 0.953030
+
+              precision    recall  f1-score   support
+
+     acetone       1.00      1.00      1.00       240
+       amica       1.00      1.00      1.00       480
+        clo3       0.93      0.97      0.95      1280
+     dioxane       1.00      1.00      1.00       240
+         dmf       0.87      0.66      0.75       240
+         ipa       1.00      0.98      0.99       240
+         kcl       0.97      0.96      0.97       480
+        meoh       0.96      1.00      0.98       240
+        nacl       0.95      0.96      0.96       480
+         no3       0.99      0.97      0.98       200
+        pfas       0.99      0.97      0.98       240
+
+    accuracy                           0.96      4360
+   macro avg       0.97      0.95      0.96      4360
+weighted avg       0.96      0.96      0.96      4360

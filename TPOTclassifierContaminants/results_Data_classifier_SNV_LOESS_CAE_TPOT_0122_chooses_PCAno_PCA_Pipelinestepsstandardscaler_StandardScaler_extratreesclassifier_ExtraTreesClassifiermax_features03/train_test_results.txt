@@ -1,0 +1,29 @@
+===== TPOT 0.12.2 TRAIN/TEST RESULTS =====
+Model = Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('extratreesclassifier',
+                 ExtraTreesClassifier(max_features=0.3))])
+Train accuracy = 0.982397
+Train balanced accuracy = 0.970928
+Test accuracy = 0.961927
+Test balanced accuracy = 0.953030
+
+===== SETTINGS =====
+data_folder = /home/amslabs/python/Data
+target_mode = contaminant classification
+use_wn_min = False
+wn_min = None
+use_wn_max = False
+wn_max = None
+normalize_X_SNV = True
+use_savgol = False
+use_loess = True
+use_cae = True
+pca = chosen internally by TPOT 0.12.2 if useful
+n_input_features_before_tpot = 1024
+test_size = 0.2
+tpot_cv = 5
+tpot_scorer = f1_macro
+tpot_max_time_mins = 60
+tpot_max_eval_time_mins = 10
+tpot_n_jobs = 1
+random_state = 0
