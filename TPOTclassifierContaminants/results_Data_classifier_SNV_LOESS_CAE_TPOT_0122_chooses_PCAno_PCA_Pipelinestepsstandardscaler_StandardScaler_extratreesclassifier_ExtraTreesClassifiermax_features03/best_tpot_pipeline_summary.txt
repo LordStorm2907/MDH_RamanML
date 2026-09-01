@@ -1,0 +1,7 @@
+===== TPOT MODEL SUMMARY =====
+TPOT object type: <class 'tpot.tpot.TPOTClassifier'>
+
+===== fitted_pipeline_ =====
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('extratreesclassifier',
+                 ExtraTreesClassifier(max_features=0.3))])
