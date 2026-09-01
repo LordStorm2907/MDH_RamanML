@@ -1,0 +1,10 @@
+===== TPOT MODEL SUMMARY =====
+TPOT object type: <class 'tpot.tpot.TPOTRegressor'>
+
+===== fitted_pipeline_ =====
+Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=GaussianProcessRegressor(alpha=0.01))),
+                ('standardscaler', StandardScaler()),
+                ('extratreesregressor',
+                 ExtraTreesRegressor(bootstrap=True, min_samples_leaf=2,
+                                     min_samples_split=10))])
