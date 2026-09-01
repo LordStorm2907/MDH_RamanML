@@ -1,7 +1,0 @@
-===== TPOT MODEL SUMMARY =====
-TPOT object type: <class 'tpot.tpot.TPOTRegressor'>
-
-===== fitted_pipeline_ =====
-Pipeline(steps=[('pca', PCA(n_components=0.95)),
-                ('extratreesregressor',
-                 ExtraTreesRegressor(min_samples_split=5))])
